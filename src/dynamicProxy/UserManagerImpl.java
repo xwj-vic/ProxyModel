@@ -7,6 +7,7 @@ public class UserManagerImpl implements UserManager {
     @Override
     public void addUser(String userId, String userName) {
         System.out.println("正在添加用户,用户为："+userId+userName+"……");
+
     }
 
     @Override
